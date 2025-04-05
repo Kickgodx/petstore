@@ -1,0 +1,18 @@
+{
+  "id": 956,
+  "category": {
+    "id": 529,
+    "name": "Angela Rodriguez"
+  },
+  "name": "Michelle Butler",
+  "photoUrls": [
+    "https://dummyimage.com/477x645"
+  ],
+  "tags": [
+    {
+      "id": 862,
+      "name": "Ivory"
+    }
+  ],
+  "status": "available"
+}

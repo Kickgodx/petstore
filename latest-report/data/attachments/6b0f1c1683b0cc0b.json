@@ -1,0 +1,18 @@
+{
+  "id": 391,
+  "category": {
+    "id": 264,
+    "name": "Michael Carey"
+  },
+  "name": "Donald Villa",
+  "photoUrls": [
+    "https://picsum.photos/920/150"
+  ],
+  "tags": [
+    {
+      "id": 759,
+      "name": "DarkGoldenRod"
+    }
+  ],
+  "status": "available"
+}

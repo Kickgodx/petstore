@@ -1,0 +1,17 @@
+{
+  "id": 142,
+  "category": {
+    "id": 312,
+    "name": "Misc. Steven Curry"
+  },
+  "photoUrls": [
+    "https://placekitten.com/200/425"
+  ],
+  "tags": [
+    {
+      "id": 306,
+      "name": "Peru"
+    }
+  ],
+  "status": "available"
+}

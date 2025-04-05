@@ -1,0 +1,18 @@
+{
+  "id": 579,
+  "category": {
+    "id": 378,
+    "name": "Robert Weber"
+  },
+  "name": "Diana Miller",
+  "photoUrls": [
+    "https://placekitten.com/951/445"
+  ],
+  "tags": [
+    {
+      "id": 470,
+      "name": "DarkGreen"
+    }
+  ],
+  "status": "sold"
+}

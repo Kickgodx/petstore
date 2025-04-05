@@ -1,0 +1,15 @@
+{
+  "id": 795,
+  "category": {
+    "id": 627,
+    "name": "Taylor Smith"
+  },
+  "name": "Holly Johnson",
+  "tags": [
+    {
+      "id": 76,
+      "name": "Maroon"
+    }
+  ],
+  "status": "sold"
+}

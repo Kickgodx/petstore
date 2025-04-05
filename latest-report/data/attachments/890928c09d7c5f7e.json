@@ -1,0 +1,18 @@
+{
+  "id": 278,
+  "category": {
+    "id": 844,
+    "name": "Nathaniel Schultz"
+  },
+  "name": "Kevin Garrett",
+  "photoUrls": [
+    "https://picsum.photos/887/588"
+  ],
+  "tags": [
+    {
+      "id": 681,
+      "name": "Snow"
+    }
+  ],
+  "status": "pending"
+}

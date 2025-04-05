@@ -1,0 +1,18 @@
+{
+  "id": 143,
+  "category": {
+    "id": 796,
+    "name": "Eric Hubbard"
+  },
+  "name": "Jacob Jenkins",
+  "photoUrls": [
+    "https://picsum.photos/18/538"
+  ],
+  "tags": [
+    {
+      "id": 564,
+      "name": "Linen"
+    }
+  ],
+  "status": "sold"
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 4047,
+    "username": "ubates",
+    "firstName": "Brandon",
+    "lastName": "Williams",
+    "email": "warewilliam@example.com",
+    "password": "jR7fOd3Kk+",
+    "phone": "792-498-1255x914",
+    "userStatus": 0
+  },
+  {
+    "id": 9985,
+    "username": "kristadorsey",
+    "firstName": "Michelle",
+    "lastName": "Herrera",
+    "email": "tcraig@example.com",
+    "password": "!6J1smepiC",
+    "phone": "210-544-2705x10478",
+    "userStatus": 2
+  },
+  {
+    "id": 9972,
+    "username": "ibrock",
+    "firstName": "Brian",
+    "lastName": "Robbins",
+    "email": "sarahnichols@example.net",
+    "password": "^UI8@+KkC2",
+    "phone": "557.794.6830x46487",
+    "userStatus": 1
+  },
+  {
+    "id": 8381,
+    "username": "youngjeffrey",
+    "firstName": "Nicholas",
+    "lastName": "Duncan",
+    "email": "lopezgeorge@example.org",
+    "password": "H9WR1EEl^d",
+    "phone": "001-440-905-7538",
+    "userStatus": 2
+  },
+  {
+    "id": 5582,
+    "username": "amber81",
+    "firstName": "Tyler",
+    "lastName": "Mclaughlin",
+    "email": "lindakelly@example.org",
+    "password": "3F9Ag3x%b)",
+    "phone": "246.918.5390x4096",
+    "userStatus": 0
+  },
+  {
+    "id": 1052,
+    "username": "shampton",
+    "firstName": "Susan",
+    "lastName": "Odom",
+    "email": "blakepollard@example.org",
+    "password": ")I7GtE5oj*",
+    "phone": "+1-603-370-5700x89675",
+    "userStatus": 2
+  },
+  {
+    "id": 825,
+    "username": "samantha57",
+    "firstName": "Diane",
+    "lastName": "Pratt",
+    "email": "ncurtis@example.com",
+    "password": "V^o9HUicTX",
+    "phone": "687.801.0448",
+    "userStatus": 1
+  },
+  {
+    "id": 6927,
+    "username": "lkirby",
+    "firstName": "Tyler",
+    "lastName": "Barnes",
+    "email": "denise12@example.org",
+    "password": "lJj4Gi8V^0",
+    "phone": "(230)820-8381x074",
+    "userStatus": 0
+  },
+  {
+    "id": 3674,
+    "username": "brownjason",
+    "firstName": "Scott",
+    "lastName": "Bush",
+    "email": "madison91@example.net",
+    "password": "&(DRS_ya6(",
+    "phone": "925-888-9926",
+    "userStatus": 1
+  },
+  {
+    "id": 8499,
+    "username": "bradley75",
+    "firstName": "Kelly",
+    "lastName": "Madden",
+    "email": "jerryzimmerman@example.net",
+    "password": "PcB6)$J6D!",
+    "phone": "001-898-521-7522x617",
+    "userStatus": 0
+  }
+]

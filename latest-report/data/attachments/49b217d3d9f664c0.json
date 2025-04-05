@@ -1,0 +1,18 @@
+{
+  "id": 54,
+  "category": {
+    "id": 827,
+    "name": "David Smith"
+  },
+  "name": "Linda Jarvis",
+  "photoUrls": [
+    "https://dummyimage.com/823x174"
+  ],
+  "tags": [
+    {
+      "id": 98,
+      "name": "IndianRed"
+    }
+  ],
+  "status": "sold"
+}

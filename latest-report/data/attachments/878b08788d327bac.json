@@ -1,0 +1,18 @@
+{
+  "id": 924,
+  "category": {
+    "id": 989,
+    "name": "Matthew Ross"
+  },
+  "name": "Katelyn Green",
+  "photoUrls": [
+    "https://picsum.photos/900/774"
+  ],
+  "tags": [
+    {
+      "id": 633,
+      "name": "DarkRed"
+    }
+  ],
+  "status": "available"
+}

@@ -1,0 +1,18 @@
+{
+  "id": 990,
+  "category": {
+    "id": 217,
+    "name": "Ashley Hernandez"
+  },
+  "name": "Stephanie Joseph",
+  "photoUrls": [
+    "https://dummyimage.com/364x796"
+  ],
+  "tags": [
+    {
+      "id": 12,
+      "name": "LightGray"
+    }
+  ],
+  "status": "pending"
+}

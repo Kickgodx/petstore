@@ -1,0 +1,63 @@
+[worker_2][02:29:49][ERROR] - Test: tests/pet/test_pet.py::TestPet::test_delete_pet (call)
+[11f4e386-c840-4b11-a6e2-b38e45d704ec] - Error in: /home/runner/work/python-pytest-api/python-pytest-api/src/func/pet/api.py:24 - delete_pet
+[11f4e386-c840-4b11-a6e2-b38e45d704ec] - HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/266
+[11f4e386-c840-4b11-a6e2-b38e45d704ec] - Request URL: DELETE https://petstore.swagger.io/v2/pet/266
+[11f4e386-c840-4b11-a6e2-b38e45d704ec] - Request headers: {'Content-Type': 'application/json'}
+[11f4e386-c840-4b11-a6e2-b38e45d704ec] - Request body: None
+[11f4e386-c840-4b11-a6e2-b38e45d704ec] - Response headers: {'Date': 'Sat, 05 Apr 2025 02:29:49 GMT', 'Content-Length': '0', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+[11f4e386-c840-4b11-a6e2-b38e45d704ec] - Response body: 
+
+[worker_1][02:29:55][ERROR] - Test: tests/store/test_store.py::TestStore::test_delete_order (call)
+[04b0f623-1c85-44af-93fe-e3478ce9c317] - Error in: /home/runner/work/python-pytest-api/python-pytest-api/src/func/store/api.py:24 - delete_order_by_id
+[04b0f623-1c85-44af-93fe-e3478ce9c317] - HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/store/order/519
+[04b0f623-1c85-44af-93fe-e3478ce9c317] - Request URL: DELETE https://petstore.swagger.io/v2/store/order/519
+[04b0f623-1c85-44af-93fe-e3478ce9c317] - Request headers: {'Content-Type': 'application/json'}
+[04b0f623-1c85-44af-93fe-e3478ce9c317] - Request body: None
+[04b0f623-1c85-44af-93fe-e3478ce9c317] - Response headers: {'Date': 'Sat, 05 Apr 2025 02:29:55 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+[04b0f623-1c85-44af-93fe-e3478ce9c317] - Response body: {"code":404,"type":"unknown","message":"Order Not Found"}
+
+[worker_1][02:29:55][ERROR] - Test: tests/store/test_store.py::TestStore::test_get_order_by_nonexistent_id (call)
+[9b355698-224f-4283-9fcd-499ac943fa87] - Error in: /home/runner/work/python-pytest-api/python-pytest-api/src/func/store/api.py:16 - get_order_by_id
+[9b355698-224f-4283-9fcd-499ac943fa87] - HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/store/order/0
+[9b355698-224f-4283-9fcd-499ac943fa87] - Request URL: GET https://petstore.swagger.io/v2/store/order/0
+[9b355698-224f-4283-9fcd-499ac943fa87] - Request headers: {'Content-Type': 'application/json'}
+[9b355698-224f-4283-9fcd-499ac943fa87] - Request body: None
+[9b355698-224f-4283-9fcd-499ac943fa87] - Response headers: {'Date': 'Sat, 05 Apr 2025 02:29:55 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+[9b355698-224f-4283-9fcd-499ac943fa87] - Response body: {"code":1,"type":"error","message":"Order not found"}
+
+[worker_1][02:29:55][ERROR] - Test: tests/store/test_store.py::TestStore::test_delete_order_by_nonexistent_id (call)
+[3356215f-4882-4cf0-a0da-db43857bd3ea] - Error in: /home/runner/work/python-pytest-api/python-pytest-api/src/func/store/api.py:24 - delete_order_by_id
+[3356215f-4882-4cf0-a0da-db43857bd3ea] - HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/store/order/0
+[3356215f-4882-4cf0-a0da-db43857bd3ea] - Request URL: DELETE https://petstore.swagger.io/v2/store/order/0
+[3356215f-4882-4cf0-a0da-db43857bd3ea] - Request headers: {'Content-Type': 'application/json'}
+[3356215f-4882-4cf0-a0da-db43857bd3ea] - Request body: None
+[3356215f-4882-4cf0-a0da-db43857bd3ea] - Response headers: {'Date': 'Sat, 05 Apr 2025 02:29:55 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+[3356215f-4882-4cf0-a0da-db43857bd3ea] - Response body: {"code":404,"type":"unknown","message":"Order Not Found"}
+
+[worker_1][02:29:55][ERROR] - Test: tests/store/test_store.py::TestStore::test_create_order_with_invalid_data (call)
+[db155d73-20ce-41d9-9017-ce2aa04c1ffb] - Error in: /home/runner/work/python-pytest-api/python-pytest-api/src/func/store/api.py:20 - place_order
+[db155d73-20ce-41d9-9017-ce2aa04c1ffb] - HTTPError: 500 Server Error: Server Error for url: https://petstore.swagger.io/v2/store/order
+[db155d73-20ce-41d9-9017-ce2aa04c1ffb] - Request URL: POST https://petstore.swagger.io/v2/store/order
+[db155d73-20ce-41d9-9017-ce2aa04c1ffb] - Request headers: {'Content-Type': 'application/json'}
+[db155d73-20ce-41d9-9017-ce2aa04c1ffb] - Request body: {"id": 2025008213453549843908439809804398034593454536556445, "petId": 975, "quantity": 3, "shipDate": "2000-09-12T12:59:55.143371", "status": "delivered", "complete": false}
+[db155d73-20ce-41d9-9017-ce2aa04c1ffb] - Response headers: {'Date': 'Sat, 05 Apr 2025 02:29:55 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+[db155d73-20ce-41d9-9017-ce2aa04c1ffb] - Response body: {"code":500,"type":"unknown","message":"something bad happened"}
+
+[worker_3][02:30:05][ERROR] - Test: tests/store/test_store.py::TestStore::test_get_order (call)
+[f7f9a710-7ced-4387-8ecb-9952141b0fd2] - Error in: /home/runner/work/python-pytest-api/python-pytest-api/src/func/store/api.py:16 - get_order_by_id
+[f7f9a710-7ced-4387-8ecb-9952141b0fd2] - HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/store/order/262
+[f7f9a710-7ced-4387-8ecb-9952141b0fd2] - Request URL: GET https://petstore.swagger.io/v2/store/order/262
+[f7f9a710-7ced-4387-8ecb-9952141b0fd2] - Request headers: {'Content-Type': 'application/json'}
+[f7f9a710-7ced-4387-8ecb-9952141b0fd2] - Request body: None
+[f7f9a710-7ced-4387-8ecb-9952141b0fd2] - Response headers: {'Date': 'Sat, 05 Apr 2025 02:30:05 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+[f7f9a710-7ced-4387-8ecb-9952141b0fd2] - Response body: {"code":1,"type":"error","message":"Order not found"}
+
+[worker_0][02:30:20][ERROR] - Test: tests/pet/test_pet.py::TestPet::test_update_pet_category (call)
+[d4a5aa6f-724a-42d9-9242-8ff50cedf34d] - Error in: /home/runner/work/python-pytest-api/python-pytest-api/src/func/pet/api.py:11 - get_find_pet_by_id
+[d4a5aa6f-724a-42d9-9242-8ff50cedf34d] - HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/363
+[d4a5aa6f-724a-42d9-9242-8ff50cedf34d] - Request URL: GET https://petstore.swagger.io/v2/pet/363
+[d4a5aa6f-724a-42d9-9242-8ff50cedf34d] - Request headers: {'Content-Type': 'application/json'}
+[d4a5aa6f-724a-42d9-9242-8ff50cedf34d] - Request body: None
+[d4a5aa6f-724a-42d9-9242-8ff50cedf34d] - Response headers: {'Date': 'Sat, 05 Apr 2025 02:30:20 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+[d4a5aa6f-724a-42d9-9242-8ff50cedf34d] - Response body: {"code":1,"type":"error","message":"Pet not found"}
+

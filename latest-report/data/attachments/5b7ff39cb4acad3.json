@@ -1,0 +1,18 @@
+{
+  "id": 787,
+  "category": {
+    "id": 602,
+    "name": "David Rojas"
+  },
+  "name": "Levi Patterson",
+  "photoUrls": [
+    "https://placekitten.com/42/423"
+  ],
+  "tags": [
+    {
+      "id": 316,
+      "name": "LawnGreen"
+    }
+  ],
+  "status": "available"
+}

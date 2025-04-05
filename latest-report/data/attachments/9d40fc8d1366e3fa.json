@@ -1,0 +1,18 @@
+{
+  "id": 249,
+  "category": {
+    "id": 857,
+    "name": "Jill Wood"
+  },
+  "name": "Laura Newman",
+  "photoUrls": [
+    "https://placekitten.com/407/574"
+  ],
+  "tags": [
+    {
+      "id": 719,
+      "name": "MediumVioletRed"
+    }
+  ],
+  "status": "sold"
+}

@@ -1,0 +1,18 @@
+{
+  "id": 266,
+  "category": {
+    "id": 485,
+    "name": "Timothy Cruz"
+  },
+  "name": "Walter Trujillo",
+  "photoUrls": [
+    "https://picsum.photos/665/200"
+  ],
+  "tags": [
+    {
+      "id": 325,
+      "name": "White"
+    }
+  ],
+  "status": "sold"
+}

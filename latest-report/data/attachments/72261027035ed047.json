@@ -1,0 +1,18 @@
+{
+  "id": 916,
+  "category": {
+    "id": 312,
+    "name": "Robert Mendez"
+  },
+  "name": "William Gross",
+  "photoUrls": [
+    "https://dummyimage.com/936x294"
+  ],
+  "tags": [
+    {
+      "id": 148,
+      "name": "Chocolate"
+    }
+  ],
+  "status": "sold"
+}

@@ -1,0 +1,18 @@
+{
+  "id": 743,
+  "category": {
+    "id": 713,
+    "name": "Brian Proctor"
+  },
+  "name": "Gina Ortega",
+  "photoUrls": [
+    "https://dummyimage.com/587x869"
+  ],
+  "tags": [
+    {
+      "id": 520,
+      "name": "Blue"
+    }
+  ],
+  "status": "available"
+}
